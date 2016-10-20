@@ -52,7 +52,12 @@ include 'connect.php';
 
      <div class="row">
      <p>
-18 years old and high school graduate near Boston MA. I plan to attend University of Massachusetts Dartmouth(class of 2020) to study Computer Science, I am currently focussing on finding an internship or a job that can allow me to improve and develop on my skill sets. I also see myself helping individuals and companies big and small, strengthening their businesses through the use of new ideas
+      18 years old and high school graduate near Boston MA. I plan to attend University
+      of Massachusetts Dartmouth(class of 2020) to study Computer Science,
+      I am currently focussing on finding an internship or a job that can allow
+      me to improve and develop on my skill sets. I also see myself helping individuals
+      and companies big and small, strengthening their businesses through the use of new
+      ideas
      </p>
      </div>
 
