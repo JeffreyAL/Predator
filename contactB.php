@@ -64,7 +64,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
 
 
 
- if(empty($Ename) AND  empty($Eemail) AND empty($Emessage)  ){
+ if(!empty($Ename) AND  !empty($Eemail) AND !empty($Emessage)  ){
 
 
 
