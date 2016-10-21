@@ -49,13 +49,14 @@ include 'inc/connect.php';
 
 
       <?php
+      //fetch data form the database
       $query = mysql_query("SELECT id, url, name, text, subt, type FROM post ORDER BY id DESC");
       while($run = mysql_fetch_array($query)){
         $pname = $run['name'];
         $psubt = $run['subt'];
         $url = $run['url'];
         $ptext = $run['text'];
-        $ptype = $run['type'];
+        $ptype = $run['type']; 
         $id = $run['id'];
          ?>
 
@@ -68,7 +69,7 @@ include 'inc/connect.php';
            <!-- image start -->
            <div class="col-md-4 col-sm-6">
            <div class="thumbnail cbox" >
-           <img src="uploads/<?php echo "$url"; ?>"  class="img-responsive" id="pic" ">
+           <img src="uploads/<?php echo "$url"; ?>"  class="img-responsive" id="pic" >
            <h3 class="text-center pname"><strong><?php echo $pname; ?></strong></h3>
            <h6 class="text-center"><strong><?php echo $psubt; ?></strong></h6>
 
