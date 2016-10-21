@@ -28,7 +28,7 @@
   <div id="body2" class="container-fluid ">
 
     <h1 class="text-center">  Contact Form</h1>
-    <?php include "inc/contact1.php";?>
+    <?php include "inc/contactB.php";?>
 
 
     <form  method="post" role="form" id="cform">
