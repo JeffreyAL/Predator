@@ -36,9 +36,6 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
     $mail = true;
   }
 
-  if(empty($name) || empty($email) || empty($message)){
-    $warning="You forgot something";
-  }
 
     if(empty($_POST['email']))
   {$Eemail = "Email is Required"; $mail = false;}
@@ -60,13 +57,15 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
   }
 
 
+  
+  if(empty($name) || empty($email) || empty($message)){
+    $warning="You forgot something";
+  }
 
 
 
 
  if(!empty($Ename) AND  !empty($Eemail) AND !empty($Emessage)  ){
-
-
 
 
   $emailTo = "alhassan.jeffrey@yahoo.com";
